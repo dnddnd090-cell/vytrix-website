@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VYTRIX Client | Minecraft</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #080b12;
+      color: #f4f8ff;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 8%;
+      border-bottom: 1px solid #202b3a;
+    }
+
+    .logo {
+      color: #62e8ff;
+      font-size: 25px;
+      font-weight: 900;
+      letter-spacing: 3px;
+    }
+
+    nav a {
+      color: #c4d0df;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 110px 20px 90px;
+      background: radial-gradient(ellipse, #123043, #080b12 70%);
+    }
+
+    .tag {
+      color: #62e8ff;
+      letter-spacing: 3px;
+      font-size: 12px;
+    }
+
+    h1 {
+      font-size: clamp(44px, 9vw, 90px);
+      margin: 22px 0;
+      line-height: 1;
+    }
+
+    h1 span { color: #62e8ff; }
+
+    p {
+      color: #a9b8ca;
+      line-height: 1.7;
+    }
+
+    .hero p {
+      max-width: 540px;
+      margin: 0 auto 30px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #62e8ff;
+      color: #071018;
+      padding: 15px 25px;
+      border-radius: 7px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .features {
+      padding: 55px 8%;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 18px;
+    }
+
+    .feature {
+      background: #101722;
+      border: 1px solid #243344;
+      border-radius: 12px;
+      padding: 25px;
+    }
+
+    .feature h2 { color: #62e8ff; }
+
+    footer {
+      text-align: center;
+      padding: 28px;
+      color: #748399;
+      border-top: 1px solid #202b3a;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">VYTRIX</div>
+    <nav>
+      <a href="#features">Features</a>
+      <a href="#download">Download</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="tag">MINECRAFT JAVA EDITION</div>
+      <h1>YOUR GAME.<br><span>YOUR SPEED.</span></h1>
+      <p>
+        Meet VYTRIX Client. A performance-focused
+        Minecraft experience built for smoother gameplay.
+      </p>
+      <a class="button" href="#download">EXPLORE VYTRIX</a>
+      <p>Fabric · Minecraft 1.21.1</p>
+    </section>
+
+    <section class="features" id="features">
+      <article class="feature">
+        <h2>⚡ Performance</h2>
+        <p>Our goal is smoother gameplay and better FPS.</p>
+      </article>
+      <article class="feature">
+        <h2>🎨 Custom HUD</h2>
+        <p>A clean interface with customizable visuals.</p>
+      </article>
+      <article class="feature">
+        <h2>⚙ Settings</h2>
+        <p>Personalize your Minecraft experience.</p>
+      </article>
+    </section>
+
+    <section class="hero" id="download">
+      <h1>COMING <span>SOON.</span></h1>
+      <p>VYTRIX Client is in development.</p>
+    </section>
+  </main>
+
+  <footer>
+    VYTRIX Client · Unofficial Minecraft project
+  </footer>
+</body>
+</html>
